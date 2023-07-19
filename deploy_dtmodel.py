@@ -11,10 +11,9 @@ st.header("Diamond Price Model")
 st.sidebar.header("This is a web app")
 
 carat = float(st.number_input("Enter carat"))
-cut = st.sidebar.slider("Select cut to get yhat", 0, 4)
-color = st.sidebar.slider("Select color to get yhat", 0, 6)
-clarity = st.sidebar.slider("Select clarity to get yhat", 0, 7)
-
+cut = st.slider("Select cut to get yhat", 0, 4)
+color = st.slider("Select color to get yhat", 0, 6)
+clarity = st.slider("Select clarity to get yhat", 0, 7)
 
 
 
