@@ -12,6 +12,7 @@ st.sidebar.header("This is a web app")
 
 carat = float(st.number_input("Enter carat"))
 cut = st.slider("Select cut to get yhat", 0, 4)
+st.write("{'color' : { 'D' : 6, 'E' : 5, 'F' : 4, 'G' : 3, 'H': 2, 'I':1, 'J':0}")
 color = st.slider("Select color to get yhat", 0, 6)
 clarity = st.slider("Select clarity to get yhat", 0, 7)
 
